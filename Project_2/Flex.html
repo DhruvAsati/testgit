@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+</head>
+<style>
+    *{
+        margin: 0;
+       
+    }
+    .container{
+        width: 100vw;
+        height: 700px;
+        background-color: lightsteelblue;
+        box-sizing: border-box;
+        padding: 32px;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: center;
+        
+
+    }
+    .item{
+        background-color: lightcoral;
+        margin-right: 16px;
+        margin-bottom: 16px;
+        padding: 32px;
+        font-size: 24px;
+        text-align: center;
+        
+    }
+    .Main{
+        width: 100vw;
+        height: 100vh;
+        background-color: cornflowerblue;
+        display:flex;
+    }
+    .cen{
+        margin: auto;
+        width: 250px;
+        height: 150px;
+        background-color: coral;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+       
+    }
+   
+</style>
+<body>
+    <div class="container">
+        <div class="item">Div1</div>
+        <div class="item">Div2</div>
+        <div class="item">Div3</div>
+        <div class="item">Div4</div>
+    </div>
+
+    <div class="Main">
+      <div class="cen">
+        <p>Hello</p>
+      </div>  
+    </div>
+</body>
+</html>
